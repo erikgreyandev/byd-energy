@@ -1,27 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="hy">
 
-    <!-- SEO / Social Meta -->
-    <title>BYD Energy | Coming Soon</title>
-    <meta name="description" content="BYD Energy – Our new website is coming soon. Stay tuned!" />
-    <meta property="og:title" content="BYD Energy | Coming Soon" />
-    <meta property="og:description" content="BYD Energy – Our new website is coming soon. Stay tuned!" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/share.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>BYD Energy | Շուտով կլինի մեր կայքը</title>
+  <meta name="description" content="Մեր նոր կայքը շուտով կլինի հասանելի: մնացեք կապի մեջ և տեղեկացեք նորություններին առաջինը։" />
+  <link rel="canonical" href="https://bydenergy.erikgreyan.dev/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
 
-    <!-- Fonts (optional, modern look) -->
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="root"></div>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="hy_AM" />
+  <meta property="og:title" content="BYD Energy | Շուտով կլինի մեր կայքը" />
+  <meta property="og:description" content="Մեր նոր կայքը շուտով կլինի հասանելի: մնացեք կապի մեջ և տեղեկացեք նորություններին առաջինը։" />
+  <meta property="og:image" content="/share.png" />
+  <meta property="og:url" content="https://bydenergy.erikgreyan.dev/" />
+  <meta property="og:site_name" content="BYD Energy" />
 
-    <!-- React Entry -->
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BYD Energy | Շուտով կլինի մեր կայքը" />
+  <meta name="twitter:description" content="Մեր նոր կայքը շուտով կլինի հասանելի: մնացեք կապի մեջ և տեղեկացեք նորություններին առաջինը։" />
+  <meta name="twitter:image" content="/share.png" />
+  <meta name="twitter:creator" content="@bydenergy" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "BYD Energy",
+          "url": "https://bydenergy.erikgreyan.dev/",
+          "logo": "https://bydenergy.erikgreyan.dev/favicon.svg"
+        },
+        {
+          "@type": "WebSite",
+          "name": "BYD Energy",
+          "url": "https://bydenergy.erikgreyan.dev/",
+          "description": "Մեր նոր կայքը շուտով կլինի հասանելի: մնացեք կապի մեջ և տեղեկացեք նորություններին առաջինը։",
+          "inLanguage": "hy"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Շուտով կլինի մեր կայքը",
+          "url": "https://bydenergy.erikgreyan.dev/",
+          "description": "Մեր նոր կայքը շուտով կլինի հասանելի: մնացեք կապի մեջ և տեղեկացեք նորություններին առաջինը։",
+          "inLanguage": "hy"
+        }
+      ]
+    }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet" />
+
+  <meta name="theme-color" content="#0f172a" />
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.tsx"></script>
+
+  <!-- Analytics -->
+  <script src="/analytics/analytics.js" defer></script>
+</body>
+
 </html>

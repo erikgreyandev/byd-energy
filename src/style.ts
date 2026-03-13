@@ -11,6 +11,7 @@ export const useStyles = createUseStyles({
     fontFamily: "'Comfortaa', sans-serif",
     overflow: "hidden",
     position: "relative",
+    padding: "20px",
   },
 
   floatingShape: {
@@ -29,6 +30,7 @@ export const useStyles = createUseStyles({
   box: {
     zIndex: 1,
     maxWidth: 600,
+    width: "100%",
     padding: 40,
     background: "rgba(255,255,255,0.05)",
     borderRadius: 20,
@@ -38,7 +40,7 @@ export const useStyles = createUseStyles({
   },
 
   title: {
-    fontSize: 56,
+    fontSize: 48,
     fontWeight: 800,
     marginBottom: 20,
     animation: "$fadeIn 1s ease forwards",
@@ -46,7 +48,7 @@ export const useStyles = createUseStyles({
 
   subtitle: {
     fontSize: 18,
-    opacity: 0.8,
+    opacity: 0.85,
     marginBottom: 40,
     animation: "$fadeIn 1.5s ease forwards",
   },
@@ -55,6 +57,7 @@ export const useStyles = createUseStyles({
     display: "flex",
     gap: 10,
     justifyContent: "center",
+    flexWrap: "wrap",
     animation: "$fadeIn 2s ease forwards",
   },
 
@@ -87,5 +90,12 @@ export const useStyles = createUseStyles({
   "@keyframes fadeIn": {
     from: { opacity: 0, transform: "translateY(20px)" },
     to: { opacity: 1, transform: "translateY(0)" },
+  },
+
+  "@media (max-width: 640px)": {
+    title: { fontSize: 36 },
+    subtitle: { fontSize: 16 },
+    inputGroup: { flexDirection: "column", gap: 12 },
+    input: { width: "100%" },
   },
 });
