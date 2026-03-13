@@ -40,4 +40,4 @@ if (!GA_MEASUREMENT_ID) {
   });
 }
 
-export {};
+export { };
