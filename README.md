@@ -1,7 +1,7 @@
 # BYD Energy 🚗⚡
 
 <p align="center">
-  <img src="https://bydenergy.erikgreyan.dev/favicon.ico" alt="BYD Energy Logo" width="220">
+  <img src="https://bydenergy.erikgreyan.dev/favicon.ico" alt="BYD Energy Logo" width="150">
 </p>
 
 ## 📌 About the Project
