@@ -1,73 +1,112 @@
-# React + TypeScript + Vite
+# BYD Energy 🚗⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![BYD Energy Logo](https://bydenergy.erikgreyan.dev/favicon.ico)
 
-Currently, two official plugins are available:
+## 📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**BYD Energy** is a modern website dedicated to electric vehicles and energy technologies from the BYD ecosystem.
 
-## React Compiler
+The platform will showcase:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🚗 Electric vehicles
+* 🔋 Battery technologies
+* ⚡ Sustainable energy solutions
+* 🌍 Green mobility innovations
 
-## Expanding the ESLint configuration
+Our goal is to provide users with clear and modern information about the future of electric transportation and energy systems.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌐 Website
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Official website:
+https://bydenergy.erikgreyan.dev
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🚀 Tech Stack
+
+This project is built with modern web technologies:
+
+* **React**
+* **TypeScript**
+* **Vite**
+* **HTML5**
+* **CSS3**
+
+---
+
+## 📂 Project Structure
+
+```
+byd-energy
+│
+├── public
+│   ├── favicon.ico
+│   ├── site.webmanifest
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   └── main.tsx
+│
+├── index.html
+├── package.json
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚡ Installation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository:
+
 ```
+git clone https://github.com/your-username/byd-energy.git
+```
+
+Go to the project folder:
+
+```
+cd byd-energy
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 🎯 Future Features
+
+Planned features for the website:
+
+* 🚗 Electric vehicle catalog
+* 🔋 Battery technology overview
+* 📊 Energy statistics
+* 🌍 Sustainability information
+* 📱 Fully responsive design
+
+---
+
+## 📄 License
+
+This project is for educational and development purposes.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Erik Greyan**
+
+Website:
+https://erikgreyan.dev
